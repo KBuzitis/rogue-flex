@@ -31,12 +31,7 @@ h1 {
 }
 
 h2 {
-	display: flex;
 	font-size: 1.5em;
-	font-weight: bold;
-	justify-content: center;
-	text-align: left;
-	text-transform: uppercase;
 }
 
 h3 {
@@ -123,7 +118,7 @@ header nav ul li a {
 .section-one,
 .section-two,
 .section-three {
-	padding: 0px;
+	box-sizing: border-box;
 }
 
 .section-one {
@@ -164,7 +159,6 @@ footer {
 	display: flex;
 	justify-content: center;
 	margin-top: 8px;
-	text-align: center;
 }
 
 footer span {
