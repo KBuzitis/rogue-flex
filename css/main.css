@@ -1,12 +1,12 @@
 /******** GLOBAL STYLES ********/
+html {
+	font-size: 16px;
+}
+
 body {
 	color: #000000;
 	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
 	font-size: .9em;
-}
-
-html {
-	font-size: 16px;
 }
 
 /* The width property has been changed to max-width */
@@ -130,12 +130,12 @@ header nav ul li a {
 	border-bottom: 5px solid #EEE;
 	border-top: 5px solid #EEE;
 	width: 100%;
-/***	width: 42%;		***/
+	/***	width: 42%;		***/
 }
 
 .section-three {
 	width: 100%;
-/***	width: 29%;	***/
+	/***	width: 29%;	***/
 }
 
 .bottom-section h3 {
@@ -166,4 +166,62 @@ footer span {
 	font-family: 'Galada', cursive;
 	font-size: .87em;
 	text-transform: lowercase;
+}
+
+
+/*** styles for tablet/min-widdth 768px ***/
+@media all and (min-width:768px) {
+	/*** bottom section ***/
+	.bottom-section .content-wrapper {
+		justify-content: space-evenly;
+	}
+	
+	.section-one {
+		padding-right: 30px;
+		width: 30%;
+	}
+	
+	.section-two {
+		border-bottom: 0;
+		border-left: 5px solid #EEE;
+		border-right: 5px solid #EEE;
+		border-top: 0;
+		padding: 0 30px;
+		width: 40%;
+	}
+	
+	.section-three {
+		padding-left: 30px;
+		width: 30%;
+	}
+}
+
+/*** styles for desktop/min-widdth 1200px ***/
+@media all and (min-width:1200px) {
+	/*** global styles ***/
+	body {
+		font-size: 1em;
+	}
+	
+	header .content-wrapper {
+		align-items: center;
+		justify-content: space-between;
+		padding: 20px 0;
+	}
+	
+	header h1 {
+		border-bottom: 0;
+		padding: 0;
+		text-align: left;
+		width: 30%;
+	}
+	
+	header nav {
+		width: 21%;
+	}
+	
+	header nav ul {
+		display: flex;
+		justify-content: space-between;
+	}
 }
