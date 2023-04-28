@@ -1,0 +1,175 @@
+/******** GLOBAL STYLES ********/
+body {
+	color: #000000;
+	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+	font-size: .9em;
+}
+
+html {
+	font-size: 16px;
+}
+
+/* The width property has been changed to max-width */
+.content-wrapper {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	max-width: 1200px;
+	width: 90%;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+h1 {
+	font-size: 1.87em;
+}
+
+h2 {
+	display: flex;
+	font-size: 1.5em;
+	font-weight: bold;
+	justify-content: center;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+h3 {
+	font-size: 1.25em;
+}
+
+h4 {
+	font-size: .75em;
+}
+
+p {
+	line-height: 2.25em;
+}
+
+/******** HEADER STYLES ********/
+/* The widths are in a percentage! */
+header {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+header h1 {
+	border-bottom: 3px solid #77a466;
+	margin: 0;
+	padding: 38px 0 20px 0;
+	width: 100%;
+}
+
+header h1 span {
+	color: #45610E;
+}
+
+header nav {
+	padding: 20px 0;
+}
+
+header nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+header nav ul li {
+	font-size: .87em;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding: 10px 0;
+	width: 100%;
+}
+
+header nav ul li a {
+	color: #45610E;
+	text-decoration: none;
+}
+
+/********  MAIN STYLES ********/
+/******** TOP SECTION ********/
+/* The widths are in a percentage! */
+.main-image img {
+	border-bottom: 3px solid #77a466;
+	border-top: 3px solid #77A466;
+	width: 100%;
+}
+
+
+.main-title h2 {
+	color: #45610E;
+	padding: 5px 0;
+}
+
+/******** BOTTOM SECTION ********/
+.top-section,
+.bottom-section {
+	display: flex;
+	justify-content: center;
+}
+
+.bottom-section .content-wrapper {
+	border-bottom: 5px solid #EEE;
+	border-top: 5px solid #EEE;
+}
+
+.section-one,
+.section-two,
+.section-three {
+	padding: 0px;
+}
+
+.section-one {
+	width: 100%;
+	/***	width: 29%;	***/
+}
+
+.section-two {
+	border-bottom: 5px solid #EEE;
+	border-top: 5px solid #EEE;
+	width: 100%;
+/***	width: 42%;		***/
+}
+
+.section-three {
+	width: 100%;
+/***	width: 29%;	***/
+}
+
+.bottom-section h3 {
+	margin: 30px 0;
+}
+
+.menu-list {
+	list-style: none;
+	padding-left: 0;
+}
+
+.menu-list li {
+	color: #45610E;
+	font-size: 1em;
+	line-height: 36px;
+}
+
+/******** FOOTER STYLES ********/
+/* The widths are in a percentage! */
+footer {
+	display: flex;
+	justify-content: center;
+	margin-top: 8px;
+	text-align: center;
+}
+
+footer span {
+	color: #45610E;
+	font-family: 'Galada', cursive;
+	font-size: .87em;
+	text-transform: lowercase;
+}
